@@ -9,6 +9,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    text-decoration: none;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
 }
 
 header {
-    padding: 20px 35px;
+    padding: 15px 35px;
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
@@ -30,17 +31,17 @@ header {
 
 header h1 {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
     color: var(--secondary-color);
     margin: 0;
     background-color: var(--tertiary-color);
     padding: 15px 25px;
-    border-radius: 10%;
+    border-radius: 7%;
     text-decoration: none;
 }
 
 header nav {
-    margin: 7px 0;
+    margin: 15px 0;
 }
 
 header nav ul {
@@ -54,34 +55,46 @@ header nav ul {
 
 header nav ul li a {
     padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.55vw;
+    font-weight: bold;
+    font-size: 2vw;
     text-shadow: 0 0 10px rgba(0,0,0,0.5);
     color: var(--secondary-color);
 }
 
 footer {
-    background: var(--primary-color);
-    width: 100%;
-    padding: 40px 35px;
+    padding: 20px 35px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 footer h2 {
+    font-weight: bold;
     color: var(--secondary-color);
     font-size: 30px;
     margin: 0;
+    display: inline-flex;
 }
 
 footer div {
     line-height: 1.5;
-    text-align: right;
+    margin: 7px 0;
+    text-decoration: none;
 }
 
 footer a {
     color: var(--secondary-color);
+    display: inline-block;
+    padding: 20px 35px;
+}
+
+footer .contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 section {
