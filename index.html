@@ -4,172 +4,144 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>Wyatt Castellan Portfolio</title>
 </head>
 <body>
 
-    <!-- navigation -->
+     <!--Header-->
 
-    <header>
-        <h1>Castellan</h1>
-
+     <header>
+        <h1>Wyatt Castellan</h1>
         <nav>
             <ul>
                 <li>
-                    <a href="#about-me">About Me</a>
+                    <a href="#about-me">About Me</a>   
                 </li>
                 <li>
-                    <a href="#work">Work</a>
+                    <a href="#work">Work</a>   
                 </li>
                 <li>
-                    <a href="#contact">Contact</a>
+                    <a href="#contact-me">Contact Me</a>   
                 </li>
                 <li>
-                    <a href="resume">Resume</a>
-                </li>
+                    <a href="/">Resume</a>   
+                </li>                    
             </ul>
         </nav>
     </header>
 
-    <!-- hero -->
+     <!-- hero -->
 
-    <section class="hero">
-        <img class="selfie" src="./assets/images/selfie.jpg" alt="employee photo" />
-        <h2>"You can dream, create, design, and build the most wonderful place in the world. But it requires people to make the dream a reality."
-            <br>
-            <br>
-            -Walt Disney
-        </h2>
+     <section class="hero">        
+        <img class="image" src="./assets/images/selfie.jpg" alt="employee photo"/>
+        <div>
+            <h2>Front End Developer</h2>
+        </div>
     </section>
 
-    <!-- about me section -->
+     <!-- About section -->
 
-    <section id="about-me" class="about">
-
+     <section id="about-me" class="about">
         <div class="flex-row">
-            <h2 class="section-title">About Me</h2>
+          <h2 class="section-title">About Me</h2> 
         </div>
-
         <div class="step-info">
-            <div class="border-1"></div>
+            <div class="border1">
         </div>
+            <div class="step-text">
+                <p>
+                    My name is Wyatt, I live in Raleigh, North Carolina.I am a nerd who loves to eat, travel, and talk about technology.</br> 
+                    I am a graduate from San Diego State University with a background in mechanical engineering.  I want to focus my energies more 
+                    with computer technology which is why I am currently taking the full stack web development coding bootcamp at UNC.</br>
+                    I currently have skills in HTML and CSS and am in the process of learning many other languages.  I look forward to working with you
+                    and to create something special. 
+                </p>
+            </div>
+     </section>
 
-        <div class="step-text">
-            <p>
-                My name is Wyatt, I live in Raleight, North Carolina.  I am a nerd and love to travel. <br>  I have a background as a mechanical engineer but have recently
-                made the decision to become a full stack web developer.  I currently have knowledge in working with HTML and CSS but plan to improve myselft by learing other
-                languages such as JavaScript.
-            </p>
-        </div>
-    </section>
-    
-    <!-- work section -->
+     
+     <!-- Work section -->
 
     <section id="work" class="about">
-        <div class="flex-row">
-            <h2 class="section-title">Work</h2>
+        <div class="flex-row ">
+          <h2 class="section-title">Work</h2> 
         </div>
-
         <div class="step-info">
-            <div class="border-2"></div>
+            <div class="border2">
+            </div>
 
-        <div class="container">
-            <div class="projects">
+            <!--CSS grid of images-->
 
-                <!-- project 1 -->
+            <div class="container">
+               <div class="project">  
 
-                <div class="project-item project-item-1">
+                <figure class="project-item project-item-1">
                     <a href="https://wcastellan.github.io/run-buddy/">
-                    <img src="./assets/images/run-buddy.PNG" class="project-image" alt="Run Buddy Website">
-                    <figcaption>Run Buddy
-                        <br>
-                        HTML/CSS
-                    </figcaption>
+                        <img src="./assets/images/run-buddy.PNG" class="project-image" alt="Run Buddy Website">
+                        <figcaption>Run Buddy</br>HTML/CSS</figcaption>                 
                     </a>
-                </div>
+                    </figure>
 
-                <!-- project 2 -->
+                  <figure class="project-item project-item-2">
+                      <a href="https://wcastellan.github.io/Test-Website/">
+                        <img src="./assets/images/color-page.PNG" class="project-image" alt="Colors Website">
+                        <figcaption>Colors</br>HTML/CSS</figcaption>
+                      </a>
+                  </figure>
 
-                <div class="project-item project-item-2">
-                    <a href="https://wcastellan.github.io/Test-Website/">
-                    <img src="./assets/images/color-page.PNG" class="project-image" alt="Color Website">
-                    <figcaption>Colors
-                        <br>
-                        HTML/CSS
-                    </figcaption>
+                  <figure class="project-item project-item-3">
+                    <a href="#">
+                        <img src="./assets/images/led-wall.png" class="project-image" alt="LED Wall Website">
+                        <figcaption>LED Wall</br>Node/IoT</figcaption>
                     </a>
-                </div>
+                  </figure>
 
-                <!-- project 3 -->
-
-                <div class="project-item project-item-3">
-                    <a href="/">
-                    <img src="./assets/images/led-wall.png" class="project-image" alt="LED Wall Website">
-                    <figcaption>LED Wall
-                        <br>
-                        Node/IoT
-                    </figcaption>
+                  <figure class="project-item project-item-4">
+                    <a href="#">
+                        <img src="./assets/images/calculator.png" class="project-image" alt="Calculator Website">
+                        <figcaption>Calculator</br>React/JavaScript/CSS</figcaption>
                     </a>
-                </div>
+                  </figure>
 
-                <!-- project 4 -->
-
-                <div class="project-item project-item-4">
-                    <a href="/">
-                    <img src="./assets/images/calculator.png" class="project-image" alt="Calculator Website">
-                    <figcaption>Calculator
-                        <br>
-                        React/JavaScript/CSS
-                    </figcaption>
+                  <figure class="project-item project-item-5">
+                    <a href="#">
+                        <img src="./assets/images/surf-report.png" class="project-image" alt="Surf Report Website">
+                        <figcaption>Surf Report</br>Mern Stack</figcaption>
                     </a>
-                </div>
+                  </figure>
 
-                <!--project 5 -->
-                
-                <div class="project-item project-item-5">
-                    <a href="/">
-                    <img src="./assets/images/surf-report.png" class="project-image" alt="Surf Report Website">
-                    <figcaption>Surf Report
-                        <br>
-                        Mern Stack
-                    </figcaption>
-                    </a>
                 </div>
-
             </div>
         </div>
-        </div>
+     </section>
 
-    </section>
+           <!-- Contact me section -->
 
-    <!-- contact me section -->
-
-    <section id="contact-me" class="about">
-
-        <div class="flex-row">
-            <h2 class="section-title">Contact Me</h2>
-        </div>
-
+           <section id="contact-me" class="about">
+            <div class="flex-row">
+                <h2 class="section-title">Contact Me</h2> 
+            </div>
         <div class="step-info">
-            <div class="border-3">
+            <div class="border3">
             </div>
             <div class="contact-info">
-                <ul>
-                    <li>
-                        <a href="#number">Phone: (916)-214-6183</a>
-                    </li>
-                    <li>
-                        <a href="mailto: wcastellan@yahoo.com">Email: wcastellan@yahoo.com</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/wcastellan">GitHub</a>
-                    </li>
-                </ul>
+            <ul>
+
+                <!--List item elements-->
+
+                <li>
+                    <a href="#number">(916)214-6183</a>   
+                </li>
+                <li>
+                    <a href="mailto: wcastellan@yahoo.com">wcastellan@yahoo.com</a>   
+                </li>
+                <li>
+                    <a href="https://github.com/wcastellan">GitHub</a>   
+                </li>
+            </ul>
             </div>
-        </div>
 
-    </section>
-
+        </section>    
 </body>
 </html>
