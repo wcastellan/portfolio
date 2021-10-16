@@ -61,45 +61,11 @@ header nav ul li a {
     color: var(--secondary-color);
 }
 
-footer {
-    padding: 20px 35px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-footer h2 {
-    font-weight: bold;
-    color: var(--secondary-color);
-    font-size: 30px;
-    margin: 0;
-    display: inline-flex;
-}
-
-footer div {
-    line-height: 1.5;
-    margin: 7px 0;
-    text-decoration: none;
-}
-
-footer a {
-    color: var(--secondary-color);
-    display: inline-block;
-    padding: 20px 35px;
-}
-
-footer .contact-info {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-}
-
 section {
     padding: 60px;
 }
+
+/* hero section start */
 
 .hero {
     background-image: url("../images/hero.jpg");
@@ -119,3 +85,40 @@ section {
     font-size: 18px;
     line-height: 1.2;
 }
+
+/* hero section end */
+
+/* about me section start */
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.flex-column {
+    width: 10%;
+    text-align: right;
+    margin: 3.5%;
+    color: var(--secondary-color);
+    font-size: 18px;
+    line-height: 1.2;
+    border-right: 5px solid var(--secondary-color) ;
+    padding-right: 10px;
+    
+}
+
+.flex-paragraph {
+    width: 76%;
+    text-align: left;
+    margin: 3.5%;
+    color: black;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+/* about me section end */
+
+/* work section start */
+
