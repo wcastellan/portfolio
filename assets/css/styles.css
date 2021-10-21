@@ -15,7 +15,7 @@
       background-color: rgb(241, 241, 241);
     }
   
-  /* apply styles to <header> */
+  /* header section */
   header {
       padding: 20px 35px;
       background-color: black;
@@ -67,7 +67,7 @@
   }
 
   
-/*apply style to hero image*/
+/*hero section*/
 .hero{
     height: 400px;
     background-image: url("../images/hero.jpg");
@@ -79,7 +79,7 @@
     position: relative;
   }
   
-  /*Add employees photo*/
+  /*Photo*/
 .image {
     position: absolute;
     top: 150px;
@@ -97,7 +97,7 @@
 }
 
   
-/*Work section style*/
+/*work section*/
 .about{
     display: flex;
     flex-wrap: wrap;
@@ -241,7 +241,7 @@ figcaption{
   }
 
   
-/*About section style*/
+/*about me section*/
 .border3 {
     border-right: 3px solid #39a6b2;
     height: 100px;
@@ -272,7 +272,7 @@ figcaption{
       padding-bottom: 2px;
     }
     
- /*Code for media query*/
+ /*media querey section*/
 
 @media screen and (max-width: 980px) {
     header {
