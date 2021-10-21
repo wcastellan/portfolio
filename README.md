@@ -15,7 +15,7 @@ that I have done in the last few weeks.
 https://wcastellan.github.io/portfolio/
 
 ## Picture
-![Alt text]()
+![Alt text](https://github.com/wcastellan/portfolio/blob/main/assets/images/portfolio.PNG)
 
 ## Contribution
 * Wyatt Castellan
